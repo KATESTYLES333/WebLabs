@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы в HTML</title>
+</head>
+
+<body>
+    <div align="center">
+        <form name="form1">
+            Ваше имя:
+            <input type="password" name="pass" required placeholder="Поле не заполнено">
+            <br>Напишите что-нибудь:<br>
+            <textarea name="message" rows="10" cols="15">Сообщение</textarea>
+            <br>
+        
+            Выберите что-нибудь одно:
+            <input type="radio" name="choiceradio" value="1" >Вариант 1
+            <input type="radio" name="choiceradio" value="2">Вариант 2
+            <input type="radio" name="choiceradio" value="3">Вариант 3
+            <br>
+            Вы согласны с нашими правилами:
+            <input type="checkbox" name="terms" value="yes" required placeholder="Поле не заполнено">
+            Выберите файл для загрузки:
+            <input type="file" name="path" required placeholder="Выберите файл">
+            <br>
+            <input type="reset" name="start" value="Начать">
+            <br>
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+</body>
+
+</html>

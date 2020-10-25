@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример 1</title>
+    <style type="text/css">
+        a:link {
+            color: #FF0000;
+        }
+
+        /*непосещенная ссылка */
+        a:visited {
+            color: #00FF00;
+        }
+
+        /* посещенная ссылка */
+        a:hover {
+            color: #FF00FF;
+        }
+
+        /* курсор мыши над ссылкой */
+        a:active {
+            color: #0000FF;
+        }
+
+        /* выбранная ссылка */
+    </style>
+
+</head>
+
+<body>
+    <p><b><a href="index.php" target="_blank">Это ссылка</a></b></p>
+    <p><b>Замечание:</b> a:hover ДОЛЖНО идти после a:link и a:visited в CSS определении для того,
+    чтобы все работало.</p>
+    <p><b>Замечание:</b> a:active ДОЛЖНО идти после a:hover в CSS определении, чтобы
+    все работало.</p>
+    
+</body>
+
+</html>

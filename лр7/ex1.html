@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы в HTML</title>
+</head>
+
+<body>
+    <form method="post" action="mailto:kvyff@gmail.com" ><fieldset>
+        <b>Заполните Ваши данные:</b><br>
+        <br>
+        Имя :
+        <input type="text" name="name" maxlength=25 size=20 value="">
+        <br><br>
+        </fieldset>
+        <p>
+        <fieldset>
+            <b>Выберите любимый цвет:</b><br>
+
+            <p align=center required placeholder="Выберите одно">
+                <input type=radio name=answer value="#f4f090">Желтый<br>
+                <input type=radio name=answer value="#80ecf3">Голубой<br>
+                <input type=radio name=answer value="#f3acc5">Розовый<br>
+                <input type=radio name=answer value="#a7f4ab">Зеленый<br>
+            </p>
+
+            <br><br>
+        </fieldset>
+        <p>
+        <fieldset>
+            <b>Напишите здесь что-нибудь хорошее :-)</b><br>
+            <textarea name="basictext" rows=7 cols=45 required placeholder="Поле не заполнено"></textarea>
+        </fieldset>
+        </p>
+        <p>
+        <fieldset>
+            <td></td>
+                <td><input type="reset" value="Отправить"></td>
+                <td><input type="reset" value="Очистить"></td>
+        </fieldset>
+        </p>
+    </form>
+</body>
+
+</html>
