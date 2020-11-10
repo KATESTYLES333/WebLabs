@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ALBUMS>
+    <CD number="432">
+        <title>Africa</title>
+        <artist>BeZBileta</artist>
+        <tracks total="20">
+            <track number="1">
+                <name>Aфрика</name>
+                <length>4:31</length>
+            </track>
+            <track number="5">
+                <name>Давай останемся</name>
+                <length>5:18</length>
+            </track>
+            <track number="10">
+                <name>Красному диску солнца feat. Сергей Михалок</name>
+                <length>3:53</length>
+            </track>
+            <track number="11">
+                <name type="bonus">Старая жизнь(bonus)</name>
+            </track>
+        </tracks>
+    </CD>
+    <CD number="97">
+        <title>HeartBreaker</title>
+        <subtitle>Sixteen Classic Performances</subtitle>
+        <artist> Benatar</artist>
+        <tracks total="16" />
+    </CD>
+
+</ALBUMS>

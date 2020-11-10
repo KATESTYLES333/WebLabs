@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+
+<bread>
+    <ingredients total="4">
+        <ingridient>
+            <title>Дрожжи</title>
+            <weight metric="грамм">25</weight>
+        </ingridient>
+        <ingridient>
+            <title>Теплая вода</title>
+            <weight metric="стакана">1,5 </weight>
+        </ingridient>
+        <ingridient>
+            <title>Мука</title>
+            <weight metric="стакана">3</weight>
+        </ingridient>
+        <ingridient>
+            <title>Соль</title>
+            <weight metric="чайная ложка">1</weight>
+        </ingridient>
+    </ingredients>
+    <todos>
+        <todo id="1">Смешать все ингредиенты</todo>
+        <todo id="2">Тщательно замесить</todo>
+        <todo id="3">Закрыть тканью</todo>
+        <todo id="4">Поставить на 1 час в теплом помещении</todo>
+        <todo id="5">Замесить еще раз</todo>
+        <todo id="6">Положить на противень</todo>
+        <todo id="7">Поставить в духовку</todo>
+        <todo id="8">Выпекать 40 минут</todo>
+    </todos>
+</bread>

@@ -1,0 +1,26 @@
+GOODS{
+    display: block;
+    font-style: italic;
+    border: 1px solid black;
+    width: 20%;
+    margin: 0 auto;
+    background-color: rgb(81, 168, 240);
+}
+
+Name{
+    border-right: 1px solid black;
+}
+
+Weight, Name, Title{
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    margin-top: 5px;
+}
+Weight{
+    background-color: rgb(226, 179, 248);
+}
+
+Name::first-letter{
+    font-weight: bold;
+}

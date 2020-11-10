@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="task7.css"?>
+
+<Medicaments>
+    <header>
+        <Title>
+            Название
+        </Title>
+        <Title>Вес в граммах</Title>
+    </header>
+    <Medicament>
+        <Name>Амипрозол</Name>
+        <Weight metric="грамм">15</Weight>
+    </Medicament>
+    <Medicament>
+        <Name>Аспирин</Name>
+        <Weight metric="грамм">24</Weight>
+    </Medicament>
+    <Medicament>
+        <Name>Ибупрофен</Name>
+        <Weight metric="грамм">11</Weight>
+    </Medicament>
+    <Medicament>
+        <Name>Амоклав</Name>
+        <Weight metric="миллилитры">50</Weight>
+    </Medicament>
+    <Medicament>
+        <Name>Афобазол</Name>
+        <Weight metric="грамм">13</Weight>
+    </Medicament>
+</Medicaments>

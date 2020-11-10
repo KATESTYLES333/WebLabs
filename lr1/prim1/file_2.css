@@ -1,0 +1,13 @@
+STUDENT{
+    font-size: 10pt;
+    margin-top: 12pt;
+    display: block;
+}
+
+FAMILY{
+    font-style: italic;
+}
+
+NAME{
+    font-weight: bold;
+}
